@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react';
 import Fade from 'react-reveal/Fade';
+
 import smoothscroll from 'smoothscroll-polyfill';
 
 import { mainData } from '../../source/data';
@@ -22,7 +23,7 @@ const Main: React.FC = () => {
 
   return (
     <Outdoor id="main">
-      <Fade left duration={1000} delay={500} distance="30px">
+      <Fade left duration={2000} delay={0} distance="30px">
         <h1>
           {title}
           <span>{name}</span>
@@ -32,7 +33,7 @@ const Main: React.FC = () => {
           <div>{subtitle2}</div>
         </Fade>
       </Fade>
-      <Fade left duration={1000} delay={1500} distance="30px">
+      <Fade duration={2000} delay={2500} distance="30px">
         <Cta onClick={() => scrollTo(document.getElementById('about'))}>
           {cta}
         </Cta>
