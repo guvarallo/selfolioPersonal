@@ -29,16 +29,15 @@ export const aboutData = {
   sectionTitle: 'About',
   img: { src: profilePicture },
   p1: `I've always enjoyed computer science, and in 2013 I decided to dive into 
-  this field, learning algorithms, data structures and many different programming
+  it for good by learning algorithms, data structures and many different programming
   tools. Started with Java back there, then learned some Ruby and RoR, and nowadays 
-  I am focusing on Javascript, TypeScript, React/React Native, NodeJS, Docker, 
-  Redis, AWS and so on, covering both front-end (mobile included) and back-end 
-  development.`,
-  p2: `Although my main goal today is to work as a software engineer, my professional 
-  background is vastly in the commercial area, where I gained more than 10 years 
-  of experience in sales, key account management, business development, teams 
-  management, hiring and training. I started as an account executive, all the 
-  way to my last role as a director of global account management at a german airline.`,
+  I am focusing on Javascript, TypeScript, React/React Native, NodeJS, SQL/NoSQL, Docker, Redis, AWS and so on, covering both front-end (mobile included) and 
+  back-end development.`,
+  p2: `Although my main goal today is to work as a software engineer, I can bring 
+  many other skills that I acquired from my vastly professional background in the commercial area, where I gained more than 10 years of experience in sales, key 
+  account management, business development, teams management, hiring and training. 
+  I started as an account executive, all the way to my last role as a director of 
+  global account management at a technology SaaS german airline.`,
   p3: `Further down you can check some of the projects I've built lately, where
   it will cover my programming skills and knowledge as a software engineer. Don't
   forget to check my GitHub profile as well!`,
@@ -63,8 +62,8 @@ export const projectData = [
   {
     title: 'Face Recon',
     description1: `An app that recognizes faces in any picture URL which uses 
-    Clarifai's API. I developed both the frontend and backend of this app.`,
-    description2: `For the front-end I used React, and for the back-end I used 
+    Clarifai's API. I developed both the front-end and back-end of this app.`,
+    description2: `For the front I used React, and for the back I used 
     NodeJS, Express, PostgreSQL, bcrypt and Knex.js. Deployed on Heroku. For 
     more details, please click on the source code link below.`,
     liveUrl: 'https://face-recon-app.herokuapp.com/',
@@ -98,8 +97,8 @@ export const projectData = [
 ];
 
 export const contactData = {
-  title: 'Contact',
-  description: 'Send me an e-mail!',
+  title: 'Drop me a line',
+  description: `Your e-mail won't be lost in a pile of junk, trust me!`,
   mailTo: 'mailto:gustavo@varallo.me',
 };
 
