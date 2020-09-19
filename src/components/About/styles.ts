@@ -59,6 +59,10 @@ export const Container = styled.div`
   }
 
   @media (max-width: 1200px) {
+    section {
+      margin: 2rem 0;
+    }
+
     h1 {
       font-size: 2.5rem !important;
     }
@@ -73,12 +77,16 @@ export const Container = styled.div`
   }
 
   @media (max-width: 800px) {
+    section {
+      margin: 0 !important;
+    }
+
     h1 {
       font-size: 2.2rem !important;
     }
 
     img {
-      max-width: 90% !important;
+      max-width: 80% !important;
     }
 
     p {
@@ -94,11 +102,11 @@ export const Container = styled.div`
       align-items: center;
 
       div {
-        max-width: 100%;
+        max-width: 80%;
 
         img {
           max-width: 60%;
-          margin-bottom: 1.5em;
+          margin: 1.5em;
         }
       }
     }
