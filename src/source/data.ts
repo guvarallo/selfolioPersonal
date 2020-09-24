@@ -1,9 +1,9 @@
 import profilePicture from '../assets/profile.png';
 
-import project1 from '../assets/project1.gif';
-import project2 from '../assets/project2.gif';
-import project3 from '../assets/project3.gif';
-import project4 from '../assets/project4.gif';
+import project1 from '../assets/project1.mp4';
+import project2 from '../assets/project2.mp4';
+import project3 from '../assets/project3.mp4';
+import project4 from '../assets/project4.mp4';
 
 export const colors = {
   first: '#232122',
@@ -57,7 +57,7 @@ export const projectData = [
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
-    img: { src: project1 },
+    video: { src: project1 },
   },
   {
     title: 'Face Recon',
@@ -70,7 +70,7 @@ export const projectData = [
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/facerecognition',
     sourceText: 'Source Code',
-    img: { src: project2 },
+    video: { src: project2 },
   },
   {
     title: 'Ravenous',
@@ -81,7 +81,7 @@ export const projectData = [
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/ravenous',
     sourceText: 'Source Code',
-    img: { src: project3 },
+    video: { src: project3 },
   },
   {
     title: 'GitHub Explorer',
@@ -92,7 +92,7 @@ export const projectData = [
     liveButtonText: '',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
-    img: { src: project4 },
+    video: { src: project4 },
   },
 ];
 

@@ -45,7 +45,7 @@ export const Container = styled.section`
     }
   }
 
-  img {
+  video {
     margin-left: 3rem !important;
     max-width: 90%;
     border: none;
@@ -121,7 +121,7 @@ export const Container = styled.section`
       margin: 1rem;
     }
 
-    img {
+    video {
       margin: 1rem !important;
     }
   }

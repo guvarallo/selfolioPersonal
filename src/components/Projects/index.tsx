@@ -48,7 +48,13 @@ const Project: React.FC = () => {
                   target="_blank"
                   href={project.sourceUrl}
                 >
-                  <img src={project.img.src} alt="project" />
+                  <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    src={project.video.src}
+                  />
                 </a>
               </Tilt>
             </Fade>
