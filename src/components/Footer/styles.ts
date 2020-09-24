@@ -63,10 +63,10 @@ export const Container = styled.footer`
     a {
       cursor: pointer;
       transition: 0.5s;
-      color: ${colors.third};
+      color: ${colors.fourth};
 
       &:hover {
-        color: #fff;
+        color: ${colors.second};
       }
     }
   }
