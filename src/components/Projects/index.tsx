@@ -38,6 +38,22 @@ const Project: React.FC = () => {
                   >
                     {project.sourceText}
                   </Link>
+                  {project.title === 'Selfolio' ? (
+                    <>
+                      <br />
+                      <img
+                        src="https://img.shields.io/github/stars/guvarallo/selfolio?style=social"
+                        alt="repo stars"
+                        style={{ marginRight: '10px' }}
+                      />
+                      <img
+                        src="https://img.shields.io/github/forks/guvarallo/selfolio?style=social"
+                        alt="repo forks"
+                      />
+                    </>
+                  ) : (
+                    ''
+                  )}
                 </div>
               </Fade>
             </div>

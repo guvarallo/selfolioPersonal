@@ -105,6 +105,8 @@ export const Container = styled.div`
   }
 
   @media (max-width: 600px) {
+    padding: 1rem;
+
     h1 {
       font-size: 2rem !important;
     }
