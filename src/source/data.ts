@@ -1,9 +1,10 @@
 import profilePicture from '../assets/profile.png';
 
-import project1 from '../assets/project1.mp4';
-import project2 from '../assets/project2.mp4';
-import project3 from '../assets/project3.mp4';
-import project4 from '../assets/project4.mp4';
+import selfolio from '../assets/selfolio.mp4';
+import facerecon from '../assets/facerecon.mp4';
+import ravenous from '../assets/ravenous.mp4';
+import robofriends from '../assets/robofriends.mp4';
+import ghexplorer from '../assets/ghexplorer.mp4';
 
 export const colors = {
   first: '#232122',
@@ -57,7 +58,7 @@ export const projectData = [
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
-    video: { src: project1 },
+    video: { src: selfolio },
   },
   {
     title: 'Face Recon',
@@ -70,7 +71,7 @@ export const projectData = [
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/facerecognition',
     sourceText: 'Source Code',
-    video: { src: project2 },
+    video: { src: facerecon },
   },
   {
     title: 'Ravenous',
@@ -81,7 +82,19 @@ export const projectData = [
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/ravenous',
     sourceText: 'Source Code',
-    video: { src: project3 },
+    video: { src: ravenous },
+  },
+  {
+    title: 'Robofriends',
+    description1: `A simple yet great app built with React and Redux. All state
+    management done with Redux, really well structured with actions, reducers, 
+    store and view.`,
+    description2: ``,
+    liveUrl: 'https://guvarallo.github.io/robofriends/',
+    liveButtonText: 'See it live',
+    sourceUrl: 'https://github.com/guvarallo/robofriends',
+    sourceText: 'Source Code',
+    video: { src: robofriends },
   },
   {
     title: 'GitHub Explorer',
@@ -92,7 +105,7 @@ export const projectData = [
     liveButtonText: '',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
-    video: { src: project4 },
+    video: { src: ghexplorer },
   },
 ];
 
