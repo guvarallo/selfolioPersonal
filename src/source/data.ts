@@ -52,7 +52,7 @@ export const projectData = [
     description1: `This very website you are right now. I made it available as 
     an open source project so others can benefit from it.`,
     description2: `I built it from scratch with React, Typescript, and minimum 
-    dependecies. All the responsive design was made in pure CSS with Styled 
+    dependencies. All the responsive design was made in pure CSS with Styled 
     Components.`,
     liveUrl: 'https://selfolio.netlify.app/',
     liveButtonText: 'See it live',
