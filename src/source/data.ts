@@ -103,7 +103,7 @@ export const projectData = [
     description2: ``,
     liveUrl: '',
     liveButtonText: '',
-    sourceUrl: 'https://github.com/guvarallo/selfolio',
+    sourceUrl: 'https://github.com/guvarallo/githubexplorer',
     sourceText: 'Source Code',
     video: { src: ghexplorer },
   },
