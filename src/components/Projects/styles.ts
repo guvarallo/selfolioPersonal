@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { colors } from '../../source/data';
 
 export const Container = styled.section`
-  background: #fff;
   text-align: center;
   align-items: center;
   margin: 2rem 2rem;

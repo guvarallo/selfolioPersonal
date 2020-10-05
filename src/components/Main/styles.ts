@@ -9,10 +9,15 @@ export const Outdoor = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: #fff;
   font-size: 4rem;
   font-weight: bold;
   z-index: -1;
+
+  button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
 
   h1 {
     white-space: nowrap;

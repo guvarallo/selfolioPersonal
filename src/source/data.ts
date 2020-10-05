@@ -7,6 +7,7 @@ import robofriends from '../assets/robofriends.mp4';
 import ghexplorer from '../assets/ghexplorer.mp4';
 
 export const colors = {
+  background: '#fff',
   first: '#232122',
   second: '#fd3c3c',
   third: '#138d90',

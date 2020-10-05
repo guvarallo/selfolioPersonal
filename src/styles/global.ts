@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import { colors } from '../source/data';
 
 export default createGlobalStyle`
   * {
@@ -8,17 +7,17 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    /* font-size: 62.5%;
-    color: ${colors.first}; */
-  }
-
-  body {
-    background: #FFF;
-    -webkit-font-smoothing: antialiased;
+    z-index: 1;
   }
 
   #root {
     margin: 0 auto;
+  }
+
+  button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
   }
 
   a,
