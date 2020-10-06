@@ -9,8 +9,8 @@ import ghexplorer from '../assets/ghexplorer.mp4';
 export const colors = {
   background: '#fff',
   first: '#232122',
-  second: '#fd3c3c',
-  third: '#138d90',
+  second: '#a5c05b',
+  third: '#7ba4a8',
   fourth: '#dddede',
 };
 
