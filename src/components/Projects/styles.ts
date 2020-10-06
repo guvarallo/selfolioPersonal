@@ -128,7 +128,7 @@ export const Container = styled.section`
 
 export const Link = styled.a`
   display: inline-block;
-  background: linear-gradient(-45deg, ${colors.first}, ${colors.second});
+  background: linear-gradient(-45deg, ${colors.second}, ${colors.third});
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

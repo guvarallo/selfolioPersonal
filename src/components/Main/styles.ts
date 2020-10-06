@@ -56,7 +56,7 @@ export const Outdoor = styled.section`
     overflow: hidden;
     white-space: nowrap;
     max-width: fit-content;
-    border-right: 0.5em solid black;
+    border-right: 0.5em solid;
     animation: typing 2.5s steps(40, end), blink 1s step-end infinite !important;
   }
 
@@ -75,7 +75,7 @@ export const Outdoor = styled.section`
       border-color: transparent;
     }
     50% {
-      border-color: ${colors.first};
+      border-color: ${colors.third};
     }
   }
 

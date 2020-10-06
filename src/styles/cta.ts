@@ -12,21 +12,9 @@ export const Cta = styled.a`
   z-index: 1;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
   border: 1px solid transparent;
-  border-image: linear-gradient(
-    -45deg,
-    ${colors.first},
-    ${colors.second},
-    ${colors.third},
-    ${colors.fourth}
-  );
+  border-image: linear-gradient(-45deg, ${colors.third}, ${colors.second});
   border-image-slice: 1;
-  background: linear-gradient(
-    -45deg,
-    ${colors.first},
-    ${colors.second},
-    ${colors.third},
-    ${colors.fourth}
-  );
+  background: linear-gradient(-45deg, ${colors.third}, ${colors.second});
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -42,10 +30,8 @@ export const Cta = styled.a`
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
     background-image: linear-gradient(
       -45deg,
-      ${colors.first},
-      ${colors.second},
       ${colors.third},
-      ${colors.fourth}
+      ${colors.second}
     );
   }
 
