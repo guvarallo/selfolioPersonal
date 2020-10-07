@@ -34,6 +34,7 @@ export default createGlobalStyle`
     margin-right: 20px;
   }
 
+  /* Prevent the blue background highlight when tapping toggle button */
   .noSelect {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;

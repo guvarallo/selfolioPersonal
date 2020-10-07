@@ -58,7 +58,12 @@ const Project: React.FC = () => {
               </Fade>
             </div>
             <Fade right duration={1000} delay={1100} distance="30px">
-              <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
+              <Tilt
+                tiltMaxAngleX={0}
+                tiltMaxAngleY={5}
+                scale={1.15}
+                tiltReverse
+              >
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
