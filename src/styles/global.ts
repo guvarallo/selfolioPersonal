@@ -32,11 +32,16 @@ export default createGlobalStyle`
     width: 100%;
     margin-top: 20px;
     margin-right: 20px;
-    outline: none;
   }
 
-  button:focus {
-    outline: 0;
+  .noSelect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   a,

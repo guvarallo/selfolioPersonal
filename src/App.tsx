@@ -19,6 +19,7 @@ const App: React.FC = () => {
     <>
       {width <= 800 ? (
         <DarkModeToggle
+          className="noSelect"
           onChange={darkMode.toggle}
           checked={darkMode.value}
           size={50}
@@ -26,6 +27,7 @@ const App: React.FC = () => {
         />
       ) : (
         <DarkModeToggle
+          className="noSelect"
           onChange={darkMode.toggle}
           checked={darkMode.value}
           size={80}
