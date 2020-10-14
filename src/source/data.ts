@@ -33,13 +33,14 @@ export const aboutData = {
   p1: `I've always enjoyed computer science, and in 2013 I decided to dive into 
   it for good by learning algorithms, data structures and many different programming
   tools. Started with Java back there, then learned some Ruby and RoR, and nowadays 
-  I am focusing on Javascript, TypeScript, React/React Native, NodeJS, SQL/NoSQL, Docker, Redis, AWS and so on, covering both front-end (mobile included) and 
-  back-end development.`,
-  p2: `Although my main goal today is to work as a software engineer, I can bring 
-  many other skills that I acquired from my vastly professional background in the commercial area, where I gained more than 10 years of experience in sales, key 
-  account management, business development, teams management, hiring and training. 
-  I started as an account executive, all the way to my last role as a director of 
-  global account management at a technology SaaS german airline.`,
+  I am focusing on Javascript, TypeScript, React/React Native, NodeJS, SQL/NoSQL, 
+  Docker, Redis, AWS, among many other tools, covering both front-end (mobile included) 
+  and back-end development.`,
+  p2: `Although my main goal today is to work as a software engineer, I obtained 
+  my professional background in the commercial area passing through technology 
+  companies like Booking.com, Hostelworld.com, where I started as an account 
+  executive, all the way to my last role as a director of global account management 
+  at a technology SaaS german airline.`,
   p3: `Further down you can check some of the projects I've built lately, where
   it will cover my programming skills and knowledge as a software engineer. Don't
   forget to check my GitHub profile as well!`,
