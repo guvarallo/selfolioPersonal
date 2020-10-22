@@ -2,6 +2,7 @@ import profilePicture from '../assets/profile.png';
 
 import selfolio from '../assets/selfolio.mp4';
 import facerecon from '../assets/facerecon.mp4';
+import extractify from '../assets/extractify.mp4';
 import ravenous from '../assets/ravenous.mp4';
 import robofriends from '../assets/robofriends.mp4';
 import ghexplorer from '../assets/ghexplorer.mp4';
@@ -74,6 +75,18 @@ export const projectData = [
     sourceUrl: 'https://github.com/guvarallo/facerecognition',
     sourceText: 'Source Code',
     video: { src: facerecon },
+  },
+  {
+    title: 'Extractify',
+    description1: `An app that parses PDF to Text in seconds!`,
+    description2: `I built this project with the following tools: In the backend, 
+    I used Firebase, Node/Express and the pdf-parse package. In the frontend, I 
+    used React and React Bootstrap. Finally I used Firebase Hosting to deploy.`,
+    liveUrl: 'https://extractify-development.web.app/',
+    liveButtonText: 'See it live',
+    sourceUrl: 'https://github.com/guvarallo/extractify',
+    sourceText: 'Source Code',
+    video: { src: extractify },
   },
   {
     title: 'Ravenous',
