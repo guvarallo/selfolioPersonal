@@ -34,17 +34,16 @@ export const aboutData = {
   p1: `I've always enjoyed computer science, and in 2013 I decided to dive into 
   it for good by learning algorithms, data structures and many different programming
   tools. Started with Java back there, then learned some Ruby and RoR, and nowadays 
-  I am focusing on Javascript, TypeScript, React/React Native, NodeJS, SQL/NoSQL, 
-  Docker, Redis, AWS, among many other tools, covering both front-end (mobile included) 
-  and back-end development.`,
-  p2: `Although my main goal today is to work as a software engineer, I obtained 
+  I have become a JavaScript Specialist (including its' libraries such as React, and 
+  its' runtime such as Node).`,
+  p2: `Here are some tools I enjoy using: Linux, Git, TypeScript, React/React Native, 
+  Redux, Webpack, Babel, NodeJS, GraphQL, SQL/NoSQL, Docker, Firebase, Jest, VS Code,
+  among others, covering both front-end (mobile included) and back-end development.`,
+  p3: `Although my main goal today is to work as a software engineer, I obtained 
   my professional background in the commercial area passing through technology 
   companies like Booking.com, Hostelworld.com, where I started as an account 
   executive, all the way to my last role as a director of global account management 
   at a technology SaaS german airline.`,
-  p3: `Further down you can check some of the projects I've built lately, where
-  it will cover my programming skills and knowledge as a software engineer. Don't
-  forget to check my GitHub profile as well!`,
 };
 
 export const projectSectionTitle = 'Projects';

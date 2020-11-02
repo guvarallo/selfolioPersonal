@@ -28,12 +28,24 @@ export const Container = styled.div`
 
       img {
         max-width: 50%;
-        transition: 0.7s ease-in-out;
-        filter: grayscale(100%);
+      }
 
-        &:hover {
-          transform: scale3d(1.12, 1.12, 1.12) rotateZ(-0.02turn);
-          filter: grayscale(0%);
+      figcaption {
+        font-size: 0.8rem;
+        max-width: 50%;
+        text-align: center;
+        margin: auto;
+
+        a {
+          transition: 0.5s;
+        }
+
+        a:visited {
+          color: #fff;
+        }
+
+        a:hover {
+          color: ${colors.first};
         }
       }
 
