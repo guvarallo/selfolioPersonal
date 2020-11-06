@@ -17,7 +17,7 @@ const About: React.FC = () => {
           <div className="left">
             <img src={img.src} alt="profile" />
             <figcaption>
-              JavaScript Specialist. Currently a Software Engineer @{' '}
+              Software Engineer, currently @{' '}
               <u>
                 <a
                   href="https://fightpandemics.com/"
