@@ -34,8 +34,8 @@ export const aboutData = {
   p1: `I've always enjoyed computer science, and in 2013 I decided to dive into 
   it for good by learning algorithms, data structures and many different programming
   tools. Started with Java back there, then learned some Ruby and RoR, and nowadays 
-  I have become a JavaScript Specialist (including its' libraries such as React, and 
-  its' runtime such as Node).`,
+  I am working mainly with JavaScript and its libraries/runtime (React, Node, Next, 
+    etc), covering frontend, backend and mobile.`,
   p2: `Here are some tools I enjoy using: Linux, Git, TypeScript, React/React Native, 
   Redux, Webpack, Babel, NodeJS, GraphQL, SQL/NoSQL, Docker, Firebase, Jest, VS Code,
   among others, covering both front-end (mobile included) and back-end development.`,
