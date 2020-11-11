@@ -38,7 +38,7 @@ export const aboutData = {
     etc), covering frontend, backend and mobile.`,
   p2: `Here are some tools I enjoy using: Linux, Git, TypeScript, React/React Native, 
   Redux, Webpack, Babel, NodeJS, GraphQL, SQL/NoSQL, Docker, Firebase, Jest, VS Code,
-  among others, covering both front-end (mobile included) and back-end development.`,
+  among others.`,
   p3: `Although my main goal today is to work as a software engineer, I obtained 
   my professional background in the commercial area passing through technology 
   companies like Booking.com, Hostelworld.com, where I started as an account 
