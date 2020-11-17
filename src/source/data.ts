@@ -6,6 +6,7 @@ import extractify from '../assets/extractify.mp4';
 import ravenous from '../assets/ravenous.mp4';
 import robofriends from '../assets/robofriends.mp4';
 import ghexplorer from '../assets/ghexplorer.mp4';
+import weather from '../assets/weather-app.mp4';
 
 export const colors = {
   background: '#fff',
@@ -120,6 +121,17 @@ export const projectData = [
     sourceUrl: 'https://github.com/guvarallo/githubexplorer',
     sourceText: 'Source Code',
     video: { src: ghexplorer },
+  },
+  {
+    title: 'Weather App',
+    description1: `Also a simple app, but with a well structured flux architecture
+    using Redux. Built with React, and the OpenWeather API.`,
+    description2: ``,
+    liveUrl: '',
+    liveButtonText: '',
+    sourceUrl: 'https://github.com/guvarallo/weather-app',
+    sourceText: 'Source Code',
+    video: { src: weather },
   },
 ];
 
