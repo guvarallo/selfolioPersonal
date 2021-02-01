@@ -6,7 +6,7 @@ import extractify from '../assets/extractify.mp4';
 import ravenous from '../assets/ravenous.mp4';
 import robofriends from '../assets/robofriends.mp4';
 import ghexplorer from '../assets/ghexplorer.mp4';
-import weather from '../assets/weather-app.mp4';
+import weather from '../assets/weather.mp4';
 
 export const colors = {
   background: '#fff',
@@ -64,6 +64,17 @@ export const projectData = [
     video: { src: selfolio },
   },
   {
+    title: 'Weather App',
+    description1: `A Vue.js weather forecast app using OpenWeather, LocationIQ and
+    Google APIs`,
+    description2: `I used v3.x of Vue.js and Tailwind CSS for styles.`,
+    liveUrl: 'https://weather-098.netlify.app/',
+    liveButtonText: 'See it live',
+    sourceUrl: 'https://github.com/guvarallo/weather',
+    sourceText: 'Source Code',
+    video: { src: weather },
+  },
+  {
     title: 'Face Recon',
     description1: `An app that recognizes faces in any picture URL which uses 
     Clarifai's API. I developed both the front-end and back-end of this app.`,
@@ -82,8 +93,8 @@ export const projectData = [
     description2: `I built this project with the following tools: In the backend, 
     I used Firebase, Node/Express and the pdf-parse package. In the frontend, I 
     used React and React Bootstrap. Finally I used Firebase Hosting to deploy.`,
-    liveUrl: 'https://extractify-development.web.app/',
-    liveButtonText: 'See it live',
+    liveUrl: '',
+    liveButtonText: '',
     sourceUrl: 'https://github.com/guvarallo/extractify',
     sourceText: 'Source Code',
     video: { src: extractify },
@@ -121,17 +132,6 @@ export const projectData = [
     sourceUrl: 'https://github.com/guvarallo/githubexplorer',
     sourceText: 'Source Code',
     video: { src: ghexplorer },
-  },
-  {
-    title: 'Weather App',
-    description1: `Also a simple app, but with a well structured flux architecture
-    using Redux. Built with React, and the OpenWeather API.`,
-    description2: ``,
-    liveUrl: '',
-    liveButtonText: '',
-    sourceUrl: 'https://github.com/guvarallo/weather-app',
-    sourceText: 'Source Code',
-    video: { src: weather },
   },
 ];
 
