@@ -32,19 +32,20 @@ export const mainData = {
 export const aboutData = {
   sectionTitle: 'About',
   img: { src: profilePicture },
-  p1: `I've always enjoyed computer science, and in 2013 I decided to dive into 
-  it for good by learning algorithms, data structures and many different programming
-  tools. Started with Java back there, then learned some Ruby and RoR, and nowadays 
-  I am working mainly with JavaScript and its libraries/runtime (React, Node, Next, 
-    etc), covering frontend, backend and mobile.`,
-  p2: `Here are some tools I enjoy using: Linux, Git, TypeScript, React/React Native, 
-  Redux, Webpack, Babel, NodeJS, GraphQL, SQL/NoSQL, Docker, Firebase, Jest, VS Code,
-  among others.`,
-  p3: `Although my main goal today is to work as a software engineer, I obtained 
-  my professional background in the commercial area passing through technology 
-  companies like Booking.com, Hostelworld.com, where I started as an account 
-  executive, all the way to my last role as a director of global account management 
-  at a technology SaaS german airline.`,
+  p1: `Not only a coder, but a software engineer with knowledge in Design Patterns, 
+  Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer 
+  science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and 
+  nowadays loving to work with JavaScript and its libraries/runtime 
+  (React, Vue.js, Node).`,
+  p2: `Here are some tools I enjoy using: Linux, Git, TypeScript, React, 
+  Redux, Vue.js, Webpack, Babel, Node, Express, GraphQL, SQL/NoSQL, Docker, Firebase, 
+  Jest, VS Code, among others.`,
+  p3: `Although a software engineer today, I obtained numerous soft skills with 
+  my professional background in the commercial area such as: Customer relationship 
+  building, account management, teams management, hiring and training. Passed 
+  through technology companies like Booking.com, Hostelworld.com, where I started 
+  as an account executive, all the way to my last role as a director of global 
+  account management at a technology SaaS german airline.`,
 };
 
 export const projectSectionTitle = 'Projects';
