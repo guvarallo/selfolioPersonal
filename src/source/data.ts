@@ -69,8 +69,8 @@ export const projectData = [
     description1: `A Vue.js weather forecast app using OpenWeather, LocationIQ and
     Google APIs`,
     description2: `I used v3.x of Vue.js and Tailwind CSS for styles.`,
-    liveUrl: 'https://weather-098.netlify.app/',
-    liveButtonText: 'See it live',
+    liveUrl: '',
+    liveButtonText: '',
     sourceUrl: 'https://github.com/guvarallo/weather',
     sourceText: 'Source Code',
     video: { src: weather },
