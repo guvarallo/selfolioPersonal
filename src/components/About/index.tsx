@@ -16,18 +16,7 @@ const About: React.FC = () => {
         <Fade duration={1000} delay={700} distance="30px">
           <div className="left">
             <img src={img.src} alt="profile" />
-            <figcaption>
-              Software Engineer, currently @{' '}
-              <u>
-                <a
-                  href="https://fightpandemics.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  FightPandemics
-                </a>
-              </u>
-            </figcaption>
+            <figcaption>Software Engineer</figcaption>
           </div>
         </Fade>
         <Fade duration={1000} delay={1100} distance="30px">
