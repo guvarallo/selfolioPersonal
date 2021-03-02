@@ -32,7 +32,7 @@ export const mainData = {
 export const aboutData = {
   sectionTitle: 'About',
   img: { src: profilePicture },
-  p1: `Not only a coder, but a software engineer with knowledge in Design Patterns, 
+  p1: `I'm a software engineer with knowledge in Design Patterns, 
   Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer 
   science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and 
   nowadays loving to work with JavaScript and its libraries/runtime 
