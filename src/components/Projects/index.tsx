@@ -69,13 +69,17 @@ const Project: React.FC = () => {
                   target="_blank"
                   href={project.sourceUrl}
                 >
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    src={project.video.src}
-                  />
+                  {project.pic ? (
+                    <img src={project.pic.src} alt={project.title} />
+                  ) : (
+                    <video
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      src={project.video.src}
+                    />
+                  )}
                 </a>
               </Tilt>
             </Fade>
