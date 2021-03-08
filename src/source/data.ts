@@ -1,5 +1,6 @@
 import profilePicture from '../assets/profile.png';
 
+import cleanReact from '../assets/clean-react.jpg';
 import selfolio from '../assets/selfolio.mp4';
 import facerecon from '../assets/facerecon.mp4';
 import extractify from '../assets/extractify.mp4';
@@ -51,6 +52,19 @@ export const aboutData = {
 export const projectSectionTitle = 'Projects';
 
 export const projectData = [
+  {
+    title: 'Clean React (4DEvs - Survey for Devs',
+    description1: `An online survey app to solidify and apply advanced knowledge 
+    in Design Patterns, Clean Architecture, SOLID principles & TDD/DDD on projects 
+    using React and TypeScript.`,
+    description2: `Please follow the source code link below to see all the
+    principles, design patters, methodologies, libraries and tools I used for it.`,
+    liveUrl: '',
+    liveButtonText: '',
+    sourceUrl: 'https://github.com/guvarallo/clean-react',
+    sourceText: 'Source Code',
+    video: { src: cleanReact },
+  },
   {
     title: 'Selfolio',
     description1: `This very website you are right now. I made it available as 
