@@ -53,7 +53,7 @@ export const projectSectionTitle = 'Projects';
 
 export const projectData = [
   {
-    title: 'Clean React (4DEvs - Survey for Devs)',
+    title: 'Clean React (4Devs - Survey for Devs)',
     description1: `An online survey app to solidify and apply advanced knowledge 
     in Design Patterns, Clean Architecture, SOLID principles & TDD/DDD on projects 
     using React and TypeScript.`,
