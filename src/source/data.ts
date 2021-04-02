@@ -36,11 +36,10 @@ export const aboutData = {
   p1: `I'm a software engineer with knowledge in Design Patterns, 
   Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer 
   science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and 
-  nowadays loving to work with JavaScript and its libraries/runtime 
-  (React, Vue.js, Node).`,
-  p2: `Here are some tools I enjoy using: Linux, Git, TypeScript, React, 
-  Redux, Vue.js, Webpack, Babel, Node, Express, GraphQL, SQL/NoSQL, Docker, Firebase, 
-  Jest, VS Code, among others.`,
+  nowadays loving to work with JavaScript/TypeScript and its libraries/runtime 
+  (React, Vue.js, Node.js).`,
+  p2: `Here are some tools I enjoy using: Linux, Git, React, Redux, Vue.js, 
+  Webpack, Babel, Node.js, Express, SQL/NoSQL, Jest, VS Code, among others.`,
   p3: `Although a software engineer today, I obtained numerous soft skills with 
   my professional background in the commercial area such as: Customer relationship 
   building, account management, teams management, hiring and training. Passed 
