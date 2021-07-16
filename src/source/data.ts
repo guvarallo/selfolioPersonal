@@ -1,12 +1,10 @@
 import profilePicture from '../assets/profile.png';
 
+import camptoo from '../assets/camptoo.png';
 import cleanReact from '../assets/clean-react.jpg';
 import selfolio from '../assets/selfolio.mp4';
 import facerecon from '../assets/facerecon.mp4';
 import extractify from '../assets/extractify.mp4';
-import ravenous from '../assets/ravenous.mp4';
-import robofriends from '../assets/robofriends.mp4';
-import ghexplorer from '../assets/ghexplorer.mp4';
 import weather from '../assets/weather.mp4';
 
 export const colors = {
@@ -51,6 +49,19 @@ export const aboutData = {
 export const projectSectionTitle = 'Projects';
 
 export const projectData = [
+  {
+    title: 'Camptoo',
+    description1: `Currently I am a software engineer at Camptoo, focused in the
+    frontend development by building well architectured and scalable clean code. 
+    Some of the tools I work with daily includes: TypeScript,
+    React, Redux, Styled Components, Webpack, and many others.`,
+    description2: ``,
+    liveUrl: 'https://www.camptoo.com/',
+    liveButtonText: 'See it live',
+    sourceUrl: '',
+    sourceText: '',
+    pic: { src: camptoo },
+  },
   {
     title: 'Clean React (4Devs - Survey for Devs)',
     description1: `An online survey app to solidify and apply advanced knowledge 
@@ -112,40 +123,6 @@ export const projectData = [
     sourceUrl: 'https://github.com/guvarallo/extractify',
     sourceText: 'Source Code',
     video: { src: extractify },
-  },
-  {
-    title: 'Ravenous',
-    description1: `An app to search for businesses in any location. For this 
-    project I used React and the Yelp API.`,
-    description2: `For more details, please click on the source code link below.`,
-    liveUrl: 'https://ravenouscode-app.surge.sh/',
-    liveButtonText: 'See it live',
-    sourceUrl: 'https://github.com/guvarallo/ravenous',
-    sourceText: 'Source Code',
-    video: { src: ravenous },
-  },
-  {
-    title: 'Robofriends',
-    description1: `A simple yet great app built with React and Redux. All state
-    management done with Redux, really well structured with actions, reducers, 
-    store and view.`,
-    description2: ``,
-    liveUrl: 'https://guvarallo.github.io/robofriends/',
-    liveButtonText: 'See it live',
-    sourceUrl: 'https://github.com/guvarallo/robofriends',
-    sourceText: 'Source Code',
-    video: { src: robofriends },
-  },
-  {
-    title: 'GitHub Explorer',
-    description1: `It uses GitHub's API to search for repos. Built with 
-    TypeScript, React, Axios for API calls and Styled Components.`,
-    description2: ``,
-    liveUrl: '',
-    liveButtonText: '',
-    sourceUrl: 'https://github.com/guvarallo/githubexplorer',
-    sourceText: 'Source Code',
-    video: { src: ghexplorer },
   },
 ];
 
