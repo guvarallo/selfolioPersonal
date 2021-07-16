@@ -52,7 +52,7 @@ export const projectData = [
   {
     title: 'Camptoo',
     description1: `Currently I am a software engineer at Camptoo, focused in the
-    frontend development by building well architectured and scalable clean code. 
+    frontend development by building well architected, scalable and clean code. 
     Some of the tools I work with daily includes: TypeScript,
     React, Redux, Styled Components, Webpack, and many others.`,
     description2: ``,
