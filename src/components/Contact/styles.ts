@@ -3,7 +3,7 @@ import { colors } from '../../source/data';
 
 export const Container = styled.div`
   background: linear-gradient(135deg, ${colors.second}, ${colors.third});
-  color: #fff;
+  color: ${colors.fourth};
 
   h1 {
     text-align: center;
@@ -32,8 +32,8 @@ export const Container = styled.div`
       font-size: 1.8rem;
       margin: 0;
       margin-bottom: 2em;
-      border: 2px solid #fff;
-      background: #fff;
+      border: 2px solid ${colors.fourth};
+      background: ${colors.fourth};
       -webkit-background-clip: text;
 
       &::after {
@@ -46,7 +46,13 @@ export const Container = styled.div`
         bottom: 0;
         z-index: -1;
         transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
-        background-image: linear-gradient(-45deg, #fff, #fff, #fff, #fff);
+        background-image: linear-gradient(
+          -45deg,
+          ${colors.fourth},
+          ${colors.fourth},
+          ${colors.fourth},
+          ${colors.fourth}
+        );
       }
 
       &:hover {

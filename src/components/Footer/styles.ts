@@ -11,7 +11,7 @@ export const Container = styled.footer`
     transition: 0.5s;
 
     &:hover {
-      color: #fff;
+      color: ${colors.fourth};
     }
   }
 
@@ -35,7 +35,7 @@ export const Container = styled.footer`
     }
 
     svg:hover {
-      color: #fff;
+      color: ${colors.fourth};
     }
   }
 
@@ -58,15 +58,15 @@ export const Container = styled.footer`
     margin-top: 1em;
     font-size: 0.9rem;
     text-align: center;
-    color: ${colors.third};
+    color: ${colors.fourth};
 
     a {
       cursor: pointer;
       transition: 0.5s;
-      color: ${colors.fourth};
+      color: ${colors.third};
 
       &:hover {
-        color: ${colors.second};
+        color: ${colors.fourth};
       }
     }
   }

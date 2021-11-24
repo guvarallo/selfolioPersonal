@@ -3,6 +3,8 @@ import Fade from 'react-reveal/Fade';
 
 import smoothscroll from 'smoothscroll-polyfill';
 
+import twilioLogo from '../../assets/twilio.png';
+
 import { mainData } from '../../source/data';
 import { Outdoor } from './styles';
 import { Cta } from '../../styles/cta';
@@ -30,7 +32,12 @@ const Main: React.FC = () => {
         </h1>
         <div className="text-typing">{subtitle}</div>
         <Fade left duration={1000} delay={1500}>
-          <div>{subtitle2}</div>
+          <div className="sub2-container">
+            <div className="sub2">{subtitle2}</div>
+            <Fade right duration={1500} delay={1500}>
+              <img className="twilio-logo" src={twilioLogo} alt="twilio logo" />
+            </Fade>
+          </div>
         </Fade>
       </Fade>
       <Fade duration={2000} delay={2500} distance="30px">

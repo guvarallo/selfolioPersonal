@@ -3,7 +3,7 @@ import { colors } from '../../source/data';
 
 export const Container = styled.div`
   background: linear-gradient(-45deg, ${colors.second}, ${colors.third});
-  color: #fff;
+  color: ${colors.fourth};
 
   h1 {
     text-align: center;
@@ -41,7 +41,7 @@ export const Container = styled.div`
         }
 
         a:visited {
-          color: #fff;
+          color: ${colors.fourth};
         }
 
         a:hover {

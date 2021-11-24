@@ -1,6 +1,5 @@
 import profilePicture from '../assets/profile.png';
 
-import camptoo from '../assets/camptoo.png';
 import cleanReact from '../assets/clean-react.jpg';
 import selfolio from '../assets/selfolio.mp4';
 import facerecon from '../assets/facerecon.mp4';
@@ -8,60 +7,47 @@ import extractify from '../assets/extractify.mp4';
 import weather from '../assets/weather.mp4';
 
 export const colors = {
-  background: '#fff',
-  first: '#232122',
-  second: '#a5c05b',
-  third: '#7ba4a8',
-  fourth: '#dddede',
+  background: '#F0EFEA',
+  first: '#000B29',
+  second: '#1E656D',
+  third: '#f22f46',
+  fourth: '#F0EFEA',
 };
 
 export const headData = {
-  title: 'Gustavo Varallo | Software Engineer',
+  title: 'Gustavo Varallo | Solutions Architect',
   description: `Welcome to Gustavo Varallo's website`,
 };
 
 export const mainData = {
-  title: 'Hi, my name is ',
-  name: 'Gustavo Varallo',
-  subtitle: 'I am a software engineer',
-  subtitle2: 'And many other things :)',
+  title: `Hey there, I'm`,
+  name: ' Gustavo Varallo',
+  subtitle: 'A Solutions Architect',
+  subtitle2: 'Currently at ',
   cta: 'Know more',
 };
 
 export const aboutData = {
   sectionTitle: 'About',
   img: { src: profilePicture },
-  p1: `I'm a software engineer with knowledge in Design Patterns, 
+  p1: `On the technical side, I have knowledge in Design Patterns, 
   Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer 
   science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and 
   nowadays loving to work with JavaScript/TypeScript and its libraries/runtime 
   (React, Vue.js, Node.js).`,
   p2: `Here are some tools I enjoy using: Linux, Git, React, Redux, Vue.js, 
   Webpack, Babel, Node.js, Express, SQL/NoSQL, Jest, VS Code, among others.`,
-  p3: `Although a software engineer today, I obtained numerous soft skills with 
-  my professional background in the commercial area such as: Customer relationship 
-  building, account management, teams management, hiring and training. Passed 
-  through technology companies like Booking.com, Hostelworld.com, where I started 
-  as an account executive, all the way to my last role as a director of global 
-  account management at a technology SaaS german airline.`,
+  p3: `My professional background also includes many years in the commercial
+  area, where I gained experience with: Customer relationship building, account 
+  management, teams management, hiring and training. Passed through technology 
+  companies like Booking.com, Hostelworld.com, where I started as an account 
+  executive, all the way to my last role as a director of global account 
+  management at a technology SaaS german airline.`,
 };
 
-export const projectSectionTitle = 'Projects';
+export const projectSectionTitle = 'Personal Projects';
 
 export const projectData = [
-  {
-    title: 'Camptoo',
-    description1: `Currently I am a software engineer at Camptoo. Focused in the
-    frontend development, my goal is to build well architected, easily maintainable, 
-    scalable and clean code. Some of the tools I work with daily include: TypeScript, 
-    React, Redux, Styled Components, Webpack, Git/GitLab, and many others.`,
-    description2: ``,
-    liveUrl: 'https://www.camptoo.com/',
-    liveButtonText: 'See it live',
-    sourceUrl: 'https://www.camptoo.com/',
-    sourceText: '',
-    pic: { src: camptoo },
-  },
   {
     title: 'Clean React (4Devs - Survey for Devs)',
     description1: `An online survey app to solidify and apply advanced knowledge 
@@ -133,6 +119,6 @@ export const contactData = {
 };
 
 export const FooterData = {
-  githubUrl: 'https://github.com/guvarallo',
   linkedinUrl: 'https://www.linkedin.com/in/gustavovarallo/',
+  githubUrl: 'https://github.com/guvarallo',
 };

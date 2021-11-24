@@ -27,18 +27,18 @@ const Footer: React.FC = () => {
       </a>
       <div>
         <a
-          href={FooterData.githubUrl}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={faGithub} size="2x" />
-        </a>
-        <a
           href={FooterData.linkedinUrl}
           rel="noopener noreferrer"
           target="_blank"
         >
           <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+        </a>
+        <a
+          href={FooterData.githubUrl}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
       </div>
       <hr />

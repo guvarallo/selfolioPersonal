@@ -17,13 +17,13 @@ const About: React.FC = () => {
           <div className="left">
             <img src={img.src} alt="profile" />
             <figcaption>
-              Software Engineer, currently at{' '}
+              Solutions Architect, currently at{' '}
               <a
-                href="https://www.camptoo.com/"
+                href="https://www.twilio.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Camptoo.
+                Twilio.
               </a>
             </figcaption>
           </div>

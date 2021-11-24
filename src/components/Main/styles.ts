@@ -9,7 +9,7 @@ export const Outdoor = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   z-index: -1;
 
@@ -22,7 +22,7 @@ export const Outdoor = styled.section`
   h1 {
     white-space: nowrap;
     max-width: fit-content;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: bold;
   }
 
@@ -60,6 +60,20 @@ export const Outdoor = styled.section`
     animation: typing 2.5s steps(40, end), blink 1s step-end infinite !important;
   }
 
+  .sub2 {
+    margin-right: 1rem;
+  }
+
+  .sub2-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .twilio-logo {
+    width: 15%;
+    height: 15%;
+  }
+
   @keyframes typing {
     from {
       width: 0;
@@ -87,6 +101,10 @@ export const Outdoor = styled.section`
     h1 {
       font-size: 3rem !important;
     }
+
+    .sub2 {
+      margin-right: 0.8rem;
+    }
   }
 
   @media (max-width: 1200px) {
@@ -94,6 +112,10 @@ export const Outdoor = styled.section`
 
     h1 {
       font-size: 2rem !important;
+    }
+
+    .sub2 {
+      margin-right: 0.7rem;
     }
   }
 
@@ -103,6 +125,15 @@ export const Outdoor = styled.section`
     h1 {
       font-size: 1.8rem !important;
     }
+
+    .sub2 {
+      margin-right: 0.6rem;
+    }
+
+    .twilio-logo {
+      width: 20%;
+      height: 20%;
+    }
   }
 
   @media (max-width: 600px) {
@@ -111,6 +142,15 @@ export const Outdoor = styled.section`
 
     h1 {
       font-size: 1.2rem !important;
+    }
+
+    .sub2 {
+      margin-right: 0.5rem;
+    }
+
+    .twilio-logo {
+      width: 20%;
+      height: 20%;
     }
   }
 `;

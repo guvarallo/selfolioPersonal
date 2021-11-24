@@ -38,7 +38,7 @@ export const Cta = styled.a`
   &:hover {
     text-decoration: none;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: ${colors.fourth};
     cursor: pointer;
 
     &::after {
