@@ -46,7 +46,6 @@ export const Container = styled.section`
 
   video,
   img {
-    margin-left: 3rem !important;
     max-width: 90%;
     border: none;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -119,11 +118,6 @@ export const Container = styled.section`
     .project-text {
       max-width: 100%;
       margin: 1rem;
-    }
-
-    video,
-    img {
-      margin: 1rem !important;
     }
   }
 `;
