@@ -30,19 +30,19 @@ export const mainData = {
 export const aboutData = {
   sectionTitle: 'About',
   img: { src: profilePicture },
-  p1: `On the technical side, I have knowledge in Design Patterns, 
-  Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer 
-  science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and 
-  nowadays loving to work with JavaScript/TypeScript and its libraries/runtime 
-  (React, Vue.js, Node.js).`,
-  p2: `Here are some tools I enjoy using: Linux, Git, React, Redux, Vue.js, 
-  Webpack, Babel, Node.js, Express, SQL/NoSQL, Jest, VS Code, among others.`,
-  p3: `My professional background also includes many years in the commercial
-  area, where I gained experience with: Customer relationship building, account 
+  p1: `My professional background includes many years in the commercial
+  area, where I gained experience with customer relationship building, account 
   management, teams management, hiring and training. Passed through technology 
   companies like Booking.com, Hostelworld.com, where I started as an account 
   executive, all the way to my last role as a director of global account 
   management at a technology SaaS german airline.`,
+  p2: `On the technical side, I have knowledge in Design Patterns, 
+  Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer 
+  science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and 
+  nowadays loving to work with JavaScript/TypeScript and its libraries/runtime 
+  (React, Vue.js, Node.js).`,
+  p3: `Here are some tools I enjoy using: Linux, Git, React, Redux, Vue.js, 
+  Webpack, Babel, Node.js, Express, SQL/NoSQL, Jest, VS Code, among others.`,
 };
 
 export const projectSectionTitle = 'Personal Projects';
