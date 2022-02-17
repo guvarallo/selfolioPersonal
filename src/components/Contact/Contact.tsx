@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
           <Cta
             href={contactData.mailTo}
             target="_blank"
-            onClick={() => window.analytics.track('Mailto button clicked')}
+            onClick={window.analytics.track('Mailto button clicked')}
           >
             E-mail
           </Cta>
