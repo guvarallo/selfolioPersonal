@@ -11,6 +11,13 @@ import Footer from './components/Footer/Footer';
 import GlobalStyles from './styles/Global';
 import useWindowDimensions from './useWindowDimensions';
 
+declare global {
+  interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    analytics: any;
+  }
+}
+
 const App: React.FC = () => {
   const { width } = useWindowDimensions();
   const darkMode = useDarkMode(false);

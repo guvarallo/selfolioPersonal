@@ -14,7 +14,11 @@ const Contact: React.FC = () => {
       <div>
         <Fade bottom duration={1000} delay={300} distance="30px">
           <p>{contactData.description}</p>
-          <Cta href={contactData.mailTo} target="_blank">
+          <Cta
+            href={contactData.mailTo}
+            target="_blank"
+            onClick={() => window.analytics.track('Mailto button clicked')}
+          >
             E-mail
           </Cta>
         </Fade>

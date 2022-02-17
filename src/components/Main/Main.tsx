@@ -41,7 +41,12 @@ const Main: React.FC = () => {
         </Fade>
       </Fade>
       <Fade duration={2000} delay={2500} distance="30px">
-        <Cta onClick={() => scrollTo(document.getElementById('about'))}>
+        <Cta
+          onClick={() => {
+            scrollTo(document.getElementById('about'));
+            window.analytics.track('Know more button clicked');
+          }}
+        >
           {cta}
         </Cta>
       </Fade>
