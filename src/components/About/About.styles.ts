@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../../source/data';
+import { colors } from '../../source/Data';
 
 export const Container = styled.div`
   background: linear-gradient(-45deg, ${colors.second}, ${colors.third});

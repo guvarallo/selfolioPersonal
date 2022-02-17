@@ -2,13 +2,13 @@ import React from 'react';
 import DarkModeToggle from 'react-dark-mode-toggle';
 import useDarkMode from 'use-dark-mode';
 
-import Main from './components/Main/index';
-import About from './components/About/index';
-import Project from './components/Projects/index';
-import Contact from './components/Contact/index';
-import Footer from './components/Footer/index';
+import Main from './components/Main/Main';
+import About from './components/About/About';
+import Project from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
-import GlobalStyles from './styles/global';
+import GlobalStyles from './styles/Global';
 import useWindowDimensions from './useWindowDimensions';
 
 const App: React.FC = () => {

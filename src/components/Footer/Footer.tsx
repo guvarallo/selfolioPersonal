@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
-import { Container } from './styles';
-import { FooterData } from '../../source/data';
+import { Container } from './Footer.styles';
+import { FooterData } from '../../source/Data';
 
 const Footer: React.FC = () => {
   // Needed for the native window.scroll smooth behavior to work on all browsers

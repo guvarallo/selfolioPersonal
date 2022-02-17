@@ -1,9 +1,9 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import { Cta } from '../../styles/cta';
+import { Cta } from '../../styles/Cta';
 
-import { Container } from './styles';
-import { contactData } from '../../source/data';
+import { Container } from './Contact.styles';
+import { contactData } from '../../source/Data';
 
 const Contact: React.FC = () => {
   return (

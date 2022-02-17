@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { colors } from '../source/data';
+import { colors } from '../source/Data';
 
 export default createGlobalStyle`
   * {

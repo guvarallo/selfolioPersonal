@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../../source/data';
+import { colors } from '../../source/Data';
 
 export const Outdoor = styled.section`
   min-height: 100vh;

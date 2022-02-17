@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Helmet } from 'react-helmet';
 
-import { headData } from './source/data';
+import { headData } from './source/Data';
 import App from './App';
 
 const { title, description } = headData;

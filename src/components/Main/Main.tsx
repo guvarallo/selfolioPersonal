@@ -5,9 +5,9 @@ import smoothscroll from 'smoothscroll-polyfill';
 
 import twilioLogo from '../../assets/twilio.png';
 
-import { mainData } from '../../source/data';
-import { Outdoor } from './styles';
-import { Cta } from '../../styles/cta';
+import { mainData } from '../../source/Data';
+import { Outdoor } from './Main.styles';
+import { Cta } from '../../styles/Cta';
 
 const Main: React.FC = () => {
   const { title, name, subtitle, subtitle2, cta } = mainData;

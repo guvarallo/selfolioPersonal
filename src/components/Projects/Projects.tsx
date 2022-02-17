@@ -2,10 +2,10 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-parallax-tilt';
 
-import { Container, Link } from './styles';
-import { Cta } from '../../styles/cta';
+import { Container, Link } from './Projects.styles';
+import { Cta } from '../../styles/Cta';
 
-import { projectData, projectSectionTitle } from '../../source/data';
+import { projectData, projectSectionTitle } from '../../source/Data';
 
 const Project: React.FC = () => {
   return (

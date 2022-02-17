@@ -1,8 +1,8 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import { aboutData } from '../../source/data';
-import { Container } from './styles';
+import { aboutData } from '../../source/Data';
+import { Container } from './About.styles';
 
 const About: React.FC = () => {
   const { sectionTitle, img, p1, p2, p3 } = aboutData;
