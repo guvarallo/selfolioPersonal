@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
+import { Analytics } from '@segment/analytics-next';
 import { Cta } from '../../styles/Cta';
 
 import { Container } from './Contact.styles';
 import { contactData } from '../../source/Data';
 
 const Contact: React.FC = () => {
+  const [analytics] = useState<Analytics | undefined>(undefined);
+
   return (
     <Container id="Contact">
       <Fade duration={1000} delay={300} distance="30px">
@@ -17,7 +20,7 @@ const Contact: React.FC = () => {
           <Cta
             href={contactData.mailTo}
             target="_blank"
-            onClick={window.analytics.track('Mailto button clicked')}
+            onClick={() => analytics?.track('Mailto button clicked')}
           >
             E-mail
           </Cta>

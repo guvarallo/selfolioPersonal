@@ -1,13 +1,16 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useState } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { Analytics } from '@segment/analytics-next';
 
 import { Container } from './Footer.styles';
 import { FooterData } from '../../source/Data';
 
 const Footer: React.FC = () => {
+  const [analytics] = useState<Analytics | undefined>(undefined);
+
   // Needed for the native window.scroll smooth behavior to work on all browsers
   smoothscroll.polyfill();
 
@@ -30,7 +33,7 @@ const Footer: React.FC = () => {
           href={FooterData.linkedinUrl}
           rel="noopener noreferrer"
           target="_blank"
-          onClick={window.analytics.track('LinkedIn button clicked')}
+          onClick={() => analytics?.track('LinkedIn button clicked')}
         >
           <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
         </a>
@@ -38,7 +41,7 @@ const Footer: React.FC = () => {
           href={FooterData.githubUrl}
           rel="noopener noreferrer"
           target="_blank"
-          onClick={window.analytics.track('GitHub button clicked')}
+          onClick={() => analytics?.track('GitHub button clicked')}
         >
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
