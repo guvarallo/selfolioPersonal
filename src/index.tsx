@@ -7,6 +7,8 @@ import App from './App';
 
 const { title, description } = headData;
 
+// App entry point
+
 ReactDOM.render(
   <React.StrictMode>
     <Helmet>
