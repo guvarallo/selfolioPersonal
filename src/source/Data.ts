@@ -92,8 +92,8 @@ export const projectData = [
     description2: `For the front I used React, and for the back I used 
     NodeJS, Express, PostgreSQL, bcrypt and Knex.js. Deployed on Heroku. For 
     more details, please click on the source code link below.`,
-    liveUrl: 'https://face-recon-app.herokuapp.com/',
-    liveButtonText: 'See it live',
+    liveUrl: '',
+    liveButtonText: '',
     sourceUrl: 'https://github.com/guvarallo/facerecognition',
     sourceText: 'Source Code',
     video: { src: facerecon },
