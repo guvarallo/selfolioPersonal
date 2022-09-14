@@ -32,21 +32,22 @@ export const aboutData = {
   sectionTitle: 'About',
   img: { src: profilePicture },
   p1: `I am currently a Solutions Architect at Twilio for Latin America, which 
-  is a senior role within the pre-sales technical solutions team (level 5 out of 7). 
-  As such, I am part of the Engineering Hub, a group of a few senior solutions 
-  architects that are engaged on big opportunities where clients require complex
-  solutions.`,
-  p2: `My professional background includes many years in the commercial
-  area, where I gained experience with customer relationship building, account 
-  management, teams management, hiring and training. Passed through technology 
-  companies like Booking.com, Hostelworld.com, where I started as an account 
-  executive, all the way to my last role as a director of global account 
-  management at a technology SaaS german airline.`,
-  p3: `On the technical side, I have knowledge in Design Patterns, 
-  Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer 
-  science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and 
-  nowadays loving to work with JavaScript/TypeScript and its libraries/runtime 
-  (React, Vue.js, NodeJS).`,
+  is a senior role within the pre-sales technical solutions team. As such, I am 
+  part of the Engineering Hub, a group of a few generalist senior solutions 
+  architects that are engaged on big opportunities where clients require solutions 
+  with a higher complexity for their use cases, including contact center solutions 
+  (Twilio Flex), costumer data platform solutions (Twilio Segment CDP), and of 
+  course all other Twilio's APIs and software products.`,
+  p2: `My professional background includes many years in the commercial area - 
+  where I gained experience with customer relationship building, account management, 
+  teams management, hiring and training - but also a strong technical background 
+  as a software engineer, with an extensive knowledge in frontend and backend development, 
+  as well as a pronounced knowledge on microservices and cloud architectures.`,
+  // p3: `On the technical side, I have knowledge in Design Patterns,
+  // Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer
+  // science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and
+  // nowadays loving to work with JavaScript/TypeScript and its libraries/runtime
+  // (React, Vue.js, NodeJS).`,
 };
 
 export const projectSectionTitle = 'Personal Projects';

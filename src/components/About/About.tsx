@@ -5,7 +5,7 @@ import { aboutData } from '../../source/Data';
 import { Container } from './About.styles';
 
 const About: React.FC = () => {
-  const { sectionTitle, img, p1, p2, p3 } = aboutData;
+  const { sectionTitle, img, p1, p2 } = aboutData;
 
   return (
     <Container id="about">
@@ -32,7 +32,7 @@ const About: React.FC = () => {
           <div className="right">
             <p>{p1}</p>
             <p>{p2}</p>
-            <p>{p3}</p>
+            {/* <p>{p3}</p> */}
           </div>
         </Fade>
       </section>
