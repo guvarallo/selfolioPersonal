@@ -1,5 +1,6 @@
 import profilePicture from '../assets/profile.png';
 
+import conversations from '../assets/conversations.png';
 import cleanReact from '../assets/clean-react.jpg';
 import selfolio from '../assets/selfolio.mp4';
 import facerecon from '../assets/facerecon.mp4';
@@ -30,24 +31,44 @@ export const mainData = {
 export const aboutData = {
   sectionTitle: 'About',
   img: { src: profilePicture },
-  p1: `My professional background includes many years in the commercial
+  p1: `I am currently a Solutions Architect at Twilio for Latin America, which 
+  is a senior role within the pre-sales technical solutions team (level 5 out of 7). 
+  As such, I am part of the Engineering Hub, a group of a few senior solutions 
+  architects that are engaged on big opportunities where clients require complex
+  solutions.`,
+  p2: `My professional background includes many years in the commercial
   area, where I gained experience with customer relationship building, account 
   management, teams management, hiring and training. Passed through technology 
   companies like Booking.com, Hostelworld.com, where I started as an account 
   executive, all the way to my last role as a director of global account 
   management at a technology SaaS german airline.`,
-  p2: `On the technical side, I have knowledge in Design Patterns, 
+  p3: `On the technical side, I have knowledge in Design Patterns, 
   Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer 
   science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and 
   nowadays loving to work with JavaScript/TypeScript and its libraries/runtime 
-  (React, Vue.js, Node.js).`,
-  p3: `Here are some tools I enjoy using: Linux, Git, React, Redux, Vue.js, 
-  Webpack, Babel, Node.js, Express, SQL/NoSQL, Jest, VS Code, among others.`,
+  (React, Vue.js, NodeJS).`,
 };
 
 export const projectSectionTitle = 'Personal Projects';
 
 export const projectData = [
+  {
+    title: 'Twilio Conversations API Demo App',
+    description1: `I have built the official code used worldwide by Twilio's 
+    employees to demonstrate Twilio's Conversation API product, which up until 
+    this date it was only demoable by making requests to the enpoints. I have 
+    built the frontend using React/Typescript, and the backend on serverlesss 
+    functions with NodeJS (link to the backend in the repo).`,
+    description2: `About Twilio Conversations: It's an omni-channel messaging API that 
+    allows to build engaging conversational messaging experiences across many 
+    channels.`,
+    liveUrl: 'https://www.twilio.com/docs/conversations',
+    liveButtonText: 'About Twilio Conversations',
+    sourceUrl:
+      'https://github.com/TwilioLatamEngHub/chat-conversations-api-client',
+    sourceText: 'Source Code',
+    pic: { src: conversations },
+  },
   {
     title: 'Clean React (4Devs - Survey for Devs)',
     description1: `An online survey app to solidify and apply advanced knowledge 
