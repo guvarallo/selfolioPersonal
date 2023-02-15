@@ -1,3 +1,5 @@
+import React from 'react';
+
 import profilePicture from '../assets/profile.png';
 
 import conversations from '../assets/conversations.png';
@@ -54,16 +56,28 @@ export const projectSectionTitle = 'Personal Projects';
 export const projectData = [
   {
     title: 'Twilio Conversations API Demo App',
-    description1: `I have built the official code used worldwide by Twilio's 
-    employees to demonstrate Twilio's Conversation API product, which up until 
-    this date it was only demoable by making requests to the enpoints. I have 
-    built the frontend using React/Typescript, and the backend on serverlesss 
-    functions with NodeJS (link to the backend in the repo).`,
+    description1: (
+      <>
+        I have built the official code used worldwide by employees at Twilio to
+        demonstrate{' '}
+        <a
+          href="https://www.twilio.com/docs/conversations"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twilio Conversations API
+        </a>
+        product, which up until this date it was only demoable by making
+        requests to the enpoints. I have built the frontend using
+        React/Typescript, and the backend on serverlesss functions with NodeJS
+        (link to the backend in the repo).
+      </>
+    ),
     description2: `About Twilio Conversations: It's an omni-channel messaging API that 
     allows to build engaging conversational messaging experiences across many 
     channels.`,
-    liveUrl: 'https://www.twilio.com/docs/conversations',
-    liveButtonText: 'About Twilio Conversations',
+    liveUrl: '',
+    liveButtonText: '',
     sourceUrl:
       'https://github.com/TwilioLatamEngHub/chat-conversations-api-client',
     sourceText: 'Source Code',
