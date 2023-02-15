@@ -31,18 +31,17 @@ export const mainData = {
 export const aboutData = {
   sectionTitle: 'About',
   img: { src: profilePicture },
-  p1: `I am currently a Solutions Architect at Twilio for Latin America, which 
-  is a senior role within the pre-sales technical solutions team. As such, I am 
-  part of the Engineering Hub, a group of a few generalist senior solutions 
-  architects that are engaged on big opportunities where clients require solutions 
-  with a higher complexity for their use cases, including contact center solutions 
-  (Twilio Flex), costumer data platform solutions (Twilio Segment CDP), and of 
-  course all other Twilio's APIs and software products.`,
-  p2: `My professional background includes many years in the commercial area - 
+  p1: `My professional background includes many years in the commercial area - 
   where I gained experience with customer relationship building, account management, 
   teams management, hiring and training - but also a strong technical background 
-  as a software engineer, with an extensive knowledge in frontend and backend development, 
-  as well as a pronounced knowledge on microservices and cloud architectures.`,
+  as a software engineer, with an extensive knowledge in frontend and backend 
+  development, as well as a pronounced knowledge on microservices and cloud architectures.`,
+  p2: `Currently as a Solutions Architect at Twilio for Latin America, which is 
+  a senior role within the pre-sales solutions engineer team, I am engaged on 
+  strategic opportunities where clients require solutions with a higher complexity 
+  for their use cases, including contact center solutions (Twilio Flex), costumer 
+  data platform solutions (Twilio Segment CDP), and of course all other Twilio's 
+  APIs and software products.`,
   // p3: `On the technical side, I have knowledge in Design Patterns,
   // Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer
   // science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and
