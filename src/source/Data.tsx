@@ -39,16 +39,15 @@ export const aboutData = {
   as a software engineer, with an extensive knowledge in frontend and backend 
   development, as well as a pronounced knowledge on microservices and cloud architectures.`,
   p2: `Currently as a Solutions Architect at Twilio for Latin America, which is 
-  a senior role within the pre-sales solutions engineer team, I am engaged on 
-  strategic opportunities where clients require solutions with a higher complexity 
-  for their use cases, including contact center solutions (Twilio Flex), costumer 
-  data platform solutions (Twilio Segment CDP), and of course all other Twilio's 
-  APIs and software products.`,
-  // p3: `On the technical side, I have knowledge in Design Patterns,
-  // Clean Architecture, SOLID, DRY, KISS, YAGNI & TDD. Passionate about computer
-  // science, in 2013 I started to learn Java, then jumped to Ruby and RoR, and
-  // nowadays loving to work with JavaScript/TypeScript and its libraries/runtime
-  // (React, Vue.js, NodeJS).`,
+  a senior role within the pre-sales solutions engineer team, I drive customers 
+  to find the best solutions and architect their technical projects using our 
+  vast range of products. On top of this, I am also a member of the SE enablement 
+  team.`,
+  p3: `Nowadays, as part of the Communications BU, I'm engaged on strategic 
+  opportunities where clients require solutions with a higher technical complexity 
+  for the following products: E-mail API (Twilio Sendgrid), Messaging 
+  (SMS & WhatsApp APIs), Account Security (Twilio Verify & Lookup APIs) and Voice 
+  (Programmable Voice, SIP Interface, Elastic SIP Trunking APIs & IVRs).`,
 };
 
 export const projectSectionTitle = 'Personal Projects';
