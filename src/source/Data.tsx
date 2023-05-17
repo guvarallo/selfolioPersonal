@@ -46,8 +46,12 @@ export const aboutData = {
   p3: `Nowadays, as part of the Communications BU, I'm engaged on strategic 
   opportunities where clients require solutions with a higher technical complexity 
   for the following products: E-mail API (Twilio Sendgrid), Messaging 
-  (SMS & WhatsApp APIs), Account Security (Twilio Verify & Lookup APIs) and Voice 
-  (Programmable Voice, SIP Interface, Elastic SIP Trunking APIs & IVRs).`,
+  (Chatbots - including AI/Cognitive, SMS & WhatsApp APIs), Account Security 
+  (Twilio Verify & Lookup APIs), Voice (IVRs - including AI/Cognitive & Programmable 
+  Voice, SIP Interface, Elastic SIP Trunking APIs), Twilio Studio (No code platform 
+  used to create Twilio applications) and Twilios Serverless (Used to create 
+  event-driven microservices, integrate with 3rd party endpoints, and extend 
+  Twilio Studio flows with custom logic)`,
 };
 
 export const projectSectionTitle = 'Personal Projects';
