@@ -2,6 +2,7 @@ import React from 'react';
 
 import profilePicture from '../assets/profile.png';
 
+import blog from '../assets/blog.png';
 import conversations from '../assets/conversations.png';
 import cleanReact from '../assets/clean-react.jpg';
 import selfolio from '../assets/selfolio.mp4';
@@ -36,8 +37,8 @@ export const aboutData = {
   p1: `My professional background includes many years in the commercial area - 
   where I gained experience with customer relationship building, account management, 
   teams management, hiring and training - but also a strong technical background 
-  as a software engineer, with an extensive knowledge in frontend and backend 
-  development, as well as a pronounced knowledge on microservices and cloud architectures.`,
+  as a Solutions Architect and a Software Engineer, with an extensive knowledge 
+  in frontend and backend development, APIs and complex systems integrations.`,
   p2: `Currently as a Solutions Architect at Twilio for Latin America, which is 
   a senior role within the pre-sales solutions engineer team, I drive customers 
   to find the best solutions and architect their technical projects using our 
@@ -54,9 +55,21 @@ export const aboutData = {
   Twilio Studio flows with custom logic)`,
 };
 
-export const projectSectionTitle = 'Personal Projects';
+export const projectSectionTitle = 'Projects';
 
 export const projectData = [
+  {
+    title: 'Blog Post',
+    description1: `AI-Based Sentiment Analysis Chatbot for WhatsApp and SMS with 
+    OpenAI, Twilio Studio and Twilio Functions`,
+    description2: ``,
+    liveUrl: '',
+    liveButtonText: '',
+    sourceUrl:
+      'https://www.twilio.com/blog/ai-sentiment-analysis-chatbot-whatsapp-sms-openai',
+    sourceText: 'Click here to read it',
+    pic: { src: blog },
+  },
   {
     title: 'Twilio Conversations API Demo App',
     description1: (
